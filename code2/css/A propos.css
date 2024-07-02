@@ -1,0 +1,247 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #007887;
+}
+
+/* En-tête */
+header {
+    background-color: #202353;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px; /* Ajuster la taille du logo selon votre design */
+    height: auto;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #007887;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Navigation principale */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.header-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-buttons .button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.header-buttons .button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 100px; /* Adjust based on header height */
+    padding-bottom: 60px; /* Adjust based on footer height */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text-content h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.text-content strong {
+    color: #333;
+}
+
+.text-content ul {
+    margin-top: 10px;
+}
+
+.text-content ul li {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Slideshow */
+.slideshow-container {
+    width: 50%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Pied de@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Pied de page */
+footer {
+    background-color: #202353;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+footer h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Styles pour les coordonnées dans le footer */
+.footer-contact {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Slideshow images */
+.slideshow-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.slideshow-container .image-caption {
+    color: #666;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Flexbox layout for main content */
+.main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.slideshow-container {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .slideshow-container,
+    .text-content {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .text-content {
+        margin-right: 0;
+    }
+}

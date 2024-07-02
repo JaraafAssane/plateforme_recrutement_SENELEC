@@ -1,0 +1,145 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #007887;
+}
+
+/* En-tête */
+header {
+    background-color: #202353;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px; /* Ajuster la taille du logo selon votre design */
+    height: auto;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #007887;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Navigation principale */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+
+/* Contenu principal */
+main {
+    padding: 30px 170px;
+    max-width: 600px;
+    margin: 30px 180px ;
+   
+    background-color:#ccc;
+    box-shadow: 0 0 10px #202353;
+    border-radius: 8px;
+    
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text-content h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.text-content strong {
+    color: #333;
+}
+
+.text-content ul {
+    margin-top: 10px;
+}
+
+.text-content ul li {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #202353;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+footer h4 {
+    color:white;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Styles pour les coordonnées dans le footer */
+.footer-contact {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-contact a {
+    color:white;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidature Spontanée - Senelec Recrutement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/im1.jfif" alt="logo">
+        <h1>Senelec - Recrutement</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="offre.html">Offres d'Emploi</a></li>
+                <li><a href="connexion.html">Candidature Spontanée</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Candidature Spontanée</h2>
+        <form action="submit_candidature.html" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="desired_period">Période souhaitée:</label>
+            <input type="text" id="desired_period" name="desired_period" required>
+
+            <label for="start_date">Date de début:</label>
+            <input type="date" id="start_date" name="start_date" required>
+
+            <label for="end_date">Date de fin:</label>
+            <input type="date" id="end_date" name="end_date" required>
+
+            <label for="desired_position">Poste souhaité:</label>
+            <input type="text" id="desired_position" name="desired_position" required>
+
+            <label for="education_level">Niveau d’étude:</label>
+            <input type="text" id="education_level" name="education_level" required>
+
+            <label for="last_degree">Dernier diplôme obtenu:</label>
+            <input type="text" id="last_degree" name="last_degree" required>
+
+            <label for="resume">CV:</label>
+            <input type="file" id="resume" name="resume" required>
+
+            <label for="cover_letter">Lettre de Motivation:</label>
+            <textarea id="cover_letter" name="cover_letter" required></textarea>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+    <footer>
+        <h4>Siège social 28 Rue Vincens, Dakar Sénégal</h4>
++221 33 839 30 30 / +221 33 867 66 66 /
++221 33 823 12 67
+        <p>&copy; 2024 Senelec. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

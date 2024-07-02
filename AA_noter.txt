@@ -1,0 +1,20 @@
+NB:
+ -Il y'a des pages dont le css est mis a jours uniquement avant la    connexion ( les pages a propos et politique de confidentialites)
+
+ -Ne pas considerer les pages contact et offres d'emploi qui sont a supprimer
+
+
+pour se connecter ily'a un compte 
+
+assanegueye@senelec.sn 
+ 
+ mdp: pass   
+
+
+
+
+
+
+
+
+

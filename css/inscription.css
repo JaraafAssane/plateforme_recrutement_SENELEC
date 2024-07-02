@@ -1,0 +1,171 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #007887;
+}
+
+header {
+    background-color: #202353;
+    color: white;
+    padding: 20px 05px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 130px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #b0285a;
+}
+
+main {
+    max-width: 800px; 
+    margin: 80px auto; 
+    padding-top:  10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #007887;
+    text-align: center;
+}
+
+.grand-div{
+    display: flex;
+}
+
+.registration-form {
+    
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%; 
+    padding:10px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007887;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.header-buttons .button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: #007887;
+    border: 1px solid white;
+}
+
+.header-buttons .button:hover {
+    background-color: rgba(12, 50, 200, 0.732);
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #202353;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    margin: 5px 0 0;
+}
+
+
+footer a {
+    color:white;
+}
+

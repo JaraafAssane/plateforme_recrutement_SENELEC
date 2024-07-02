@@ -1,0 +1,215 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #007887;
+    color: #333;
+}
+
+header {
+    background-color: #202353;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:4px
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 200px; /* Adjust this based on your logo size */
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.header-buttons .button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 130px;
+    background-color: #007887;
+    border: 1px solid white;
+}
+
+.header-buttons .button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b0285a;
+}
+
+.wrapper {
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main {
+    margin: 100px auto;
+    max-width: 1000px;
+    background-color: white;
+    margin-top: 120px ;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #007887;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="file"],
+form select,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    grid-column: 1 / span 2;
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button {
+    grid-column: 1 / span 2;
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #202353;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #7f1e63;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #202353;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td a {
+    color: #202353;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+td a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #202353;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    margin: 60px 0 0;
+}
+
+footer h4, footer p {
+    margin: 5px 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+footer a {
+    color: white;
+}

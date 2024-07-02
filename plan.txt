@@ -1,0 +1,18 @@
+1- Accueil
+2- Inscription
+
+3- Connexion
+4- Tableau de bord: 
+   4-1-infos compte (Tableau)
+   4-2-infos candidature (Tableau)
+     
+5- Modifier profil (avec pop up: votre profil a ete mis a jour)
+6- Modifier candidature (avec pop up:votre candidature a bien ete installe)
+7- Visualiser le fichier televerse (GIF)
+
+
+
+footer enlever position fixd mettre margin 60px 0 0
+enlever le body padding de body
+politiqu de confi dans le footer
+enlevr le gros titre senelec recrutemnt n haut

@@ -1,0 +1,156 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #202353;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    height: 93;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    
+    width: 120px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 200px; /* Adjust this based on your logo size */
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.header-buttons .button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 13px;
+    background-color: #007887;
+    border: 1px solid white;
+}
+
+
+.header-buttons .button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper {
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+   
+}
+
+#welcome {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#job-listings {
+    margin-bottom: 40px;
+}
+
+#job-listings h2, #welcome h2 {
+    color: #004080;
+}
+
+.job {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.job h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.job p {
+    margin-bottom: 10px;
+}
+
+.job a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #202353;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    margin:60px 0 0;
+}
+
+footer h4, footer p {
+    margin: 5px 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+footer a {
+    color:white
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Senelec Recrutement</title>
+    <link rel="stylesheet" href="css/connexion.css">
+
+
+
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="offre.html">Offres d'Emploi</a></li>
+                <li><a href="connexion.html">Candidature Spontanée</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="A propos.html">A propos</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>ADMINISTRATEUR</h1>
+        <h2> Veuillez saisir vos informations de Connexion</h2>
+        <form action="connexionA.php" method="post">
+            <label for="utilisateur">Utilisateur :</label>
+            <input type="email" id="utilisateur" name="utilisateur"  placeholder="mettez votre email" required>
+
+            <label for="mot_de_passe">Mot de passe :</label>
+            <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+
+            <button type="submit"><a>Se connecter</a></button>
+        </form>
+        <p>Pas encore de compte? <a href="inscription.html">Inscrivez-vous</a></p>
+    </main>
+
+    <footer>
+        <h4><a href="Politique_de_confi.html">Politique de confidentialité</a></h4>
+        <h4>Siège social 28 Rue Vincens, Dakar Sénégal</h4>
++221 33 839 30 30 / +221 33 867 66 66 /
++221 33 823 12 67
+        <p>&copy; 2024 Senelec. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
